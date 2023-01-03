@@ -12,12 +12,13 @@ struct ProfileView: View {
         NavigationStack {
             ZStack {
                 VStack {
-                    Text("My info")
+                    Text("Deetz")
                         .padding()
                         .font(.headline)
                 }
             }
-            .navigationTitle("Profile")
+            .navigationTitle("My Info")
+			.navigationBarTitleDisplayMode(.inline)
         }
     }
 }
