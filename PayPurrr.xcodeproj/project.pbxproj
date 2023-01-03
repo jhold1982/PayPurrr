@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6483E639290ED7F10020CB8C /* AddBillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483E638290ED7F10020CB8C /* AddBillsView.swift */; };
+		64D1217A292576A500F7BC7F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D12179292576A500F7BC7F /* HomeView.swift */; };
+		64D1217C29257ABD00F7BC7F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1217B29257ABD00F7BC7F /* ProfileView.swift */; };
+		64E420742924717400930BFF /* PaycheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E420732924717400930BFF /* PaycheckView.swift */; };
 		64E9665B28B54E4A00D4179A /* PayPurrrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9665A28B54E4A00D4179A /* PayPurrrApp.swift */; };
 		64E9665D28B54E4A00D4179A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9665C28B54E4A00D4179A /* ContentView.swift */; };
 		64E9665F28B54E4B00D4179A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E9665E28B54E4B00D4179A /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6483E638290ED7F10020CB8C /* AddBillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillsView.swift; sourceTree = "<group>"; };
+		64D12179292576A500F7BC7F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64D1217B29257ABD00F7BC7F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		64E420732924717400930BFF /* PaycheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaycheckView.swift; sourceTree = "<group>"; };
 		64E9665728B54E4A00D4179A /* PayPurrr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPurrr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E9665A28B54E4A00D4179A /* PayPurrrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPurrrApp.swift; sourceTree = "<group>"; };
 		64E9665C28B54E4A00D4179A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64CBD9B32933FF1B00A069FD /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				64E9665C28B54E4A00D4179A /* ContentView.swift */,
+				64D12179292576A500F7BC7F /* HomeView.swift */,
+				64E420732924717400930BFF /* PaycheckView.swift */,
+				6483E638290ED7F10020CB8C /* AddBillsView.swift */,
+				64D1217B29257ABD00F7BC7F /* ProfileView.swift */,
+			);
+			path = VIEWS;
+			sourceTree = "<group>";
+		};
+		64CBD9B42933FF2A00A069FD /* DATA MODELS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DATA MODELS";
+			sourceTree = "<group>";
+		};
+		64CBD9B52933FF3700A069FD /* EXTENSIONS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EXTENSIONS;
+			sourceTree = "<group>";
+		};
 		64E9664E28B54E4A00D4179A = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				64E9665A28B54E4A00D4179A /* PayPurrrApp.swift */,
-				64E9665C28B54E4A00D4179A /* ContentView.swift */,
+				64CBD9B42933FF2A00A069FD /* DATA MODELS */,
+				64CBD9B52933FF3700A069FD /* EXTENSIONS */,
+				64CBD9B32933FF1B00A069FD /* VIEWS */,
 				64E9665E28B54E4B00D4179A /* Assets.xcassets */,
 				64E9666028B54E4B00D4179A /* Preview Content */,
 			);
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E420742924717400930BFF /* PaycheckView.swift in Sources */,
 				64E9665D28B54E4A00D4179A /* ContentView.swift in Sources */,
 				64E9665B28B54E4A00D4179A /* PayPurrrApp.swift in Sources */,
+				64D1217A292576A500F7BC7F /* HomeView.swift in Sources */,
+				64D1217C29257ABD00F7BC7F /* ProfileView.swift in Sources */,
+				6483E639290ED7F10020CB8C /* AddBillsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PayPurrr/Preview Content\"";
+				DEVELOPMENT_TEAM = N8877H53MP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PayPurrr/Preview Content\"";
+				DEVELOPMENT_TEAM = N8877H53MP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +345,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

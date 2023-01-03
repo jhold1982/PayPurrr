@@ -45,7 +45,9 @@ struct PaycheckView: View {
                 Section("Yearly Salary") {
                     Text(yearlySalary, format: localCurrency)
                 }
-                .navigationTitle("Salary Calculator")
+				Button("Reset", action: reset)
+                .navigationTitle("💵Salary Calculator🧮")
+				.navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItemGroup(placement: .keyboard) {
                         Spacer()
@@ -58,7 +60,8 @@ struct PaycheckView: View {
         }
     }
     func reset() {
-        // add method to reset hourly field to $0.00 and add button somewhere for that
+		hourlyRate = 0.0
+		workingHours = 40.0
     }
 }
 
