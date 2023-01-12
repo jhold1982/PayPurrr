@@ -14,10 +14,10 @@ struct ProfileView: View {
                 VStack {
                     Text("Deetz")
                         .padding()
-                        .font(.headline)
+						.font(.title)
                 }
             }
-            .navigationTitle("My Info")
+            .navigationTitle("👉🏻My Info📝")
 			.navigationBarTitleDisplayMode(.inline)
         }
     }

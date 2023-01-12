@@ -14,7 +14,7 @@ struct AddBillsView: View {
 			ZStack {
 				//
             }
-            .navigationTitle("My Budget")
+            .navigationTitle("🫰🏻My Budget💸")
 			.navigationBarTitleDisplayMode(.inline)
         }
     }

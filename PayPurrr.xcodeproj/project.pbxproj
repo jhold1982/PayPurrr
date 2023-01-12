@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6418713829666EA1008CFE11 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6418713729666EA1008CFE11 /* CustomTabBar.swift */; };
+		643F90522968B97300905F47 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F90512968B97300905F47 /* TabBarItemsPreferenceKey.swift */; };
+		643F90542968C17A00905F47 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F90532968C17A00905F47 /* TabBarItem.swift */; };
 		6483E639290ED7F10020CB8C /* AddBillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483E638290ED7F10020CB8C /* AddBillsView.swift */; };
+		64A7940E29677C9D00A7B8AE /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7940D29677C9D00A7B8AE /* CustomTabBarContainerView.swift */; };
 		64D1217A292576A500F7BC7F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D12179292576A500F7BC7F /* HomeView.swift */; };
 		64D1217C29257ABD00F7BC7F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1217B29257ABD00F7BC7F /* ProfileView.swift */; };
+		64E245EF2967735D00EB8588 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E245EE2967735D00EB8588 /* AppTabBarView.swift */; };
+		64E245F12967746900EB8588 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E245F02967746900EB8588 /* CustomTabBarView.swift */; };
 		64E420742924717400930BFF /* PaycheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E420732924717400930BFF /* PaycheckView.swift */; };
 		64E9665B28B54E4A00D4179A /* PayPurrrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9665A28B54E4A00D4179A /* PayPurrrApp.swift */; };
 		64E9665D28B54E4A00D4179A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9665C28B54E4A00D4179A /* ContentView.swift */; };
@@ -18,9 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6418713729666EA1008CFE11 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTabBar.swift; path = /Users/jhold/Documents/Xcode/PayPurrr/PayPurrr/PayPurrr/CustomTabBar/CustomTabBar.swift; sourceTree = "<absolute>"; };
+		643F90512968B97300905F47 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		643F90532968C17A00905F47 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		6483E638290ED7F10020CB8C /* AddBillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillsView.swift; sourceTree = "<group>"; };
+		64A7940D29677C9D00A7B8AE /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		64D12179292576A500F7BC7F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		64D1217B29257ABD00F7BC7F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		64E245EE2967735D00EB8588 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		64E245F02967746900EB8588 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		64E420732924717400930BFF /* PaycheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaycheckView.swift; sourceTree = "<group>"; };
 		64E9665728B54E4A00D4179A /* PayPurrr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPurrr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E9665A28B54E4A00D4179A /* PayPurrrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPurrrApp.swift; sourceTree = "<group>"; };
@@ -66,6 +78,19 @@
 			path = EXTENSIONS;
 			sourceTree = "<group>";
 		};
+		64E245ED296772E800EB8588 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				643F90532968C17A00905F47 /* TabBarItem.swift */,
+				6418713729666EA1008CFE11 /* CustomTabBar.swift */,
+				64E245EE2967735D00EB8588 /* AppTabBarView.swift */,
+				64E245F02967746900EB8588 /* CustomTabBarView.swift */,
+				643F90512968B97300905F47 /* TabBarItemsPreferenceKey.swift */,
+				64A7940D29677C9D00A7B8AE /* CustomTabBarContainerView.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		64E9664E28B54E4A00D4179A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +113,7 @@
 				64E9665A28B54E4A00D4179A /* PayPurrrApp.swift */,
 				64CBD9B42933FF2A00A069FD /* DATA MODELS */,
 				64CBD9B52933FF3700A069FD /* EXTENSIONS */,
+				64E245ED296772E800EB8588 /* CustomTabBar */,
 				64CBD9B32933FF1B00A069FD /* VIEWS */,
 				64E9665E28B54E4B00D4179A /* Assets.xcassets */,
 				64E9666028B54E4B00D4179A /* Preview Content */,
@@ -173,12 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E245F12967746900EB8588 /* CustomTabBarView.swift in Sources */,
 				64E420742924717400930BFF /* PaycheckView.swift in Sources */,
 				64E9665D28B54E4A00D4179A /* ContentView.swift in Sources */,
+				6418713829666EA1008CFE11 /* CustomTabBar.swift in Sources */,
+				643F90522968B97300905F47 /* TabBarItemsPreferenceKey.swift in Sources */,
 				64E9665B28B54E4A00D4179A /* PayPurrrApp.swift in Sources */,
+				643F90542968C17A00905F47 /* TabBarItem.swift in Sources */,
 				64D1217A292576A500F7BC7F /* HomeView.swift in Sources */,
 				64D1217C29257ABD00F7BC7F /* ProfileView.swift in Sources */,
+				64E245EF2967735D00EB8588 /* AppTabBarView.swift in Sources */,
 				6483E639290ED7F10020CB8C /* AddBillsView.swift in Sources */,
+				64A7940E29677C9D00A7B8AE /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,9 +355,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedapps.PayPurrr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,9 +388,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedapps.PayPurrr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

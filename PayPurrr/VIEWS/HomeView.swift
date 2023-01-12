@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
+	
+
+	
     var body: some View {
         NavigationStack {
             ZStack {
                 VStack {
                     Text("Home View")
+						.font(.title)
                 }
             }
             .navigationTitle("💵PayPurrr😸")
-        }
+		}
     }
 }
 
