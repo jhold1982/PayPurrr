@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct PaycheckView: View {
-    
     @State private var hourlyRate = 0.0
     @State private var workingHours = 40.0
     @FocusState private var userHourlyRate: Bool
-    
-    let localCurrency: FloatingPointFormatStyle<Double>.Currency = .currency(code: Locale.current.currency?.identifier ?? "USD")
-    
+    let localCurrency: FloatingPointFormatStyle<Double>.Currency =
+		.currency(code: Locale.current.currency?.identifier ?? "USD")
     var biWeeklySalary: Double {
         hourlyRate * workingHours * 2
     }
@@ -24,7 +22,6 @@ struct PaycheckView: View {
     var yearlySalary: Double {
         hourlyRate * workingHours * 52
     }
-    
     var body: some View {
         NavigationStack {
             Form {

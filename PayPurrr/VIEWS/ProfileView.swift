@@ -11,11 +11,9 @@ struct ProfileView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                VStack {
-                    Text("Deetz")
-                        .padding()
-						.font(.title)
-                }
+				Text("Deetz")
+					.padding()
+					.font(.title)
             }
             .navigationTitle("👉🏻My Info📝")
 			.navigationBarTitleDisplayMode(.inline)

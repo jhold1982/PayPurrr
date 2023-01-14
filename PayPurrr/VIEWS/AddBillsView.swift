@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct AddBillsView: View {
-    
     var body: some View {
         NavigationStack {
 			ZStack {
-				//
+				Text("Add Bills Here")
+					.padding()
+					.font(.title)
             }
-            .navigationTitle("🫰🏻My Budget💸")
+            .navigationTitle("🫰🏻My Biils💸")
 			.navigationBarTitleDisplayMode(.inline)
         }
     }

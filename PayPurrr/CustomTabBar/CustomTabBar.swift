@@ -5,16 +5,16 @@
 //  Created by Justin Hold on 1/4/23.
 //
 
-//import SwiftUI
+// import SwiftUI
 //
-//enum SelectedTab: String, CaseIterable {
+// enum SelectedTab: String, CaseIterable {
 //	case house
 //	case dollarsign
 //	case checklist
 //	case person
-//}
+// }
 //
-//struct CustomTabBar: View {
+// struct CustomTabBar: View {
 //	@Binding var selectedTab: SelectedTab
 //	private var fillImage: String {
 //		selectedTab.rawValue + ".fill"
@@ -54,10 +54,10 @@
 //			.padding()
 //		}
 //    }
-//}
+// }
 //
-//struct CustomTabBar_Previews: PreviewProvider {
+// struct CustomTabBar_Previews: PreviewProvider {
 //    static var previews: some View {
 //		CustomTabBar(selectedTab: .constant(.house))
 //    }
-//}
+// }
